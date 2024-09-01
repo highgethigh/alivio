@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/normalize.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Alivio</title>
+  </head>
+<!-- develop by highgethigh  -->
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="nav">
+          <div class="logo">
+            <img src="./images/logo.svg" alt="logo" />
+          </div>
+          <nav class="navigation">
+            <a href="#" class="menu-item">Why Alivio</a>
+            <a href="#" class="menu-item">Solutions</a>
+            <a href="#" class="menu-item">Community</a>
+            <a href="#" class="menu-item">Pricing</a>
+          </nav>
+          <div class="login">
+            <a href="#" class="menu-item">Sign in</a>
+            <button class="btn-login" >Start Trial</button>
+          </div>
+          <div class="burger-menu">
+            <input type="checkbox" id="burger-checkbox" class="burger-checkbox">
+            <label class="burger" for="burger-checkbox"></label>
+          </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="woman__1">
+        <div class="container">
+          <div class="content">
+            <h1 class="oneHead">Be aware, Manage well.</h1>
+            <p class="onep">
+              Everyone experiences stress in different ways. Let Alivio guide
+              you, in a personalized journal experience, to overcome your
+              stress.
+            </p>
+            <button class="btn-woman">Find Your Way</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="howitworks">
+        <div class="container">
+          <div class="content__top">
+            <div class="headings">
+              <h5 class="smallHead">How it works</h5>
+              <h1 class="twoHead">
+                Understand & Release the stress in 3 steps
+              </h1>
+            </div>
+            <div class="text">
+              <p class="twop">
+                Alivio offers as many journals it takes, tackling different
+                areas such as anxiety, overwhelmedness, sadness, or anger, and a
+                variety of personal causes, to help you become aware of your
+                emotions, and guide you in how to manage stress.
+              </p>
+            </div>
+          </div>
+
+          <div class="content__bottom">
+            <div class="card">
+              <img src="./images/01.svg" alt="01" class="number" />
+              <img src="./images/window.svg" alt="window" class="window" />
+              <h1 class="threeHead">Personalize</h1>
+              <p class="text forcard">
+                Answer a quick survey about how you express yourself, what
+                causes you stress, and what area would you like to work on. This
+                way, we can fully personalize your journal!
+              </p>
+              <img
+                src="./images/macbook.png"
+                alt="macbook"
+                class="photo windowspos"
+              />
+            </div>
+
+            <div class="card two">
+              <img src="./images/02.svg" alt="02" class="number" />
+              <h1 class="threeHead">Write & Understand</h1>
+              <p class="text forcard">
+                Write, draw, reflect, understand. Alivio will guide you through
+                the prompts and will help you manage your stress!
+              </p>
+              <img src="./images/books.png" alt="books" class="photo" />
+            </div>
+
+            <div class="card three">
+              <img src="./images/03.svg" alt="03" class="number" />
+              <h1 class="threeHead">Alivio!</h1>
+              <p class="text forcard">
+                Now you are aware, and have a way to manage and overcome your
+                own stress. What are you waiting for? Alivio today!
+              </p>
+              <img src="./images/smile.png" alt="smile" class="photo" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="story">
+        <div class="container">
+          <div class="aboutstory">
+            <div class="about">
+              <h1 class="thirdHead">Let's hear about Kayla's success story</h1>
+              <p class="text forstoy">
+                See how well Alivio works in a real customer’s life.
+              </p>
+              <button class="btn-story">Let’s get started</button>
+            </div>
+            <div class="video">
+              <img src="./images/story.png" alt="story" class="imgstory" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="custome">
+        <div class="container">
+          <div class="product">
+            <div class="images">
+              <img
+                src="./images/wcustome.png"
+                alt="wcustome"
+                class="wcustome"
+              />
+            </div>
+            <div>
+              <h5 class="smallHead">Our product</h5>
+              <h1 class="fiveHead">
+                You tell us your stress, We make your diary
+              </h1>
+              <p class="text producter">
+                Everyone experiences it, and in different ways. Let Alivio guide
+                you, in a personalized journal experience, to overcome your
+                stress.
+              </p>
+              <button class="btn-product">Find Your Way</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <ul>
+          <li><img src="./images/logow.svg" alt="logo" /></li>
+          <li><a href="#">Why Alivio</a></li>
+          <li><a href="#">Solutions</a></li>
+          <li><a href="#">Community</a></li>
+          <li><a href="#">Pricing</a></li>
+        </ul>
+      </div>
+    </footer>
+  <!-- script for burger-menu -->
+    <script>
+      document.querySelector('.burger').addEventListener('click', function() 
+        {
+          document.querySelector('.nav').classList.toggle('active');
+        }
+      );
+    </script>
+  </body>
+</html>
