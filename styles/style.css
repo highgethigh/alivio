@@ -1,0 +1,436 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+body {
+  font-family: "Lato", sans-serif;
+  color: #484848;
+  font-size: 20px;
+}
+
+.container {
+  padding: 0 10% 0 10%;
+}
+
+.nav {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: #292929;
+}
+
+.navigation {
+  text-align: center;
+}
+
+.navigation a {
+  margin: 0 30px;
+}
+
+.login {
+  text-align: center;
+}
+
+.login a {
+  margin-right: 30px;
+}
+
+button {
+  color: #fff;
+  background-color: #01996d;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-login {
+  width: 183px;
+  height: 51px;
+}
+
+a:hover {
+  color: #01996d;
+  text-decoration: underline;
+}
+
+.woman__1 {
+  background-image: url(../images/woman.png);
+  background-position: center;
+  background-size: cover;
+}
+
+h1 {
+  font-family: "Georgia", serif;
+  color: #01996d;
+  font-family: Georgia;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.oneHead {
+  font-size: 65px;
+  max-width: 440px;
+}
+
+.content {
+  margin: 20px 0;
+  padding: 180px 0;
+}
+
+.onep {
+  width: 420px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 144.5%;
+}
+
+@media (max-width: 1000px) {
+  .onep {
+    width: 100%;
+  }
+
+  .content__top {
+    flex-wrap: wrap;
+  }
+}
+
+@media (min-width: 1000px) {
+  .twoHead {
+    min-width: 584px;
+  }
+}
+
+.btn-woman {
+  min-width: 227px;
+  min-height: 65px;
+  text-align: center;
+}
+
+.howitworks {
+  padding-top: 139px;
+}
+
+.content__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.smallHead {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 157%;
+}
+
+.twoHead {
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 157%;
+}
+
+.twop {
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+}
+
+.headings {
+  margin-right: 5%;
+}
+
+.content__bottom {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  min-height: 900px;
+  padding-top: 20px;
+  padding-bottom: 51px;
+}
+
+.card {
+  margin-top: 20px;
+  width: 380px;
+  position: relative;
+}
+
+.threeHead {
+  line-height: 150%;
+  font-size: 30px;
+  color: #000000;
+  position: absolute;
+  top: 31px;
+  left: 80px;
+}
+
+.windowspos {
+  position: relative;
+  z-index: 0;
+}
+
+.window {
+  position: absolute;
+  left: 54%;
+  top: 542px;
+  z-index: 1;
+}
+
+.number {
+  padding-bottom: 40px;
+}
+
+.forcard {
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+}
+
+.two {
+  align-self: flex-end;
+}
+
+.three {
+  align-self: center;
+}
+
+@media (max-width: 1500px) {
+  .photo {
+    width: 310px;
+    height: 400px;
+  }
+
+  .window {
+    width: 150px;
+    height: 200px;
+    left: 54%;
+    top: 460px;
+  }
+
+  .card {
+    width: 300px;
+  }
+
+  .imgstory {
+    width: 625px;
+    padding-top: 20px;
+  }
+}
+
+.story {
+  background-color: #245852;
+}
+
+.aboutstory {
+  padding-top: 210px;
+  padding-bottom: 190px;
+}
+
+.thirdHead {
+  max-width: 550px;
+  color: #fff;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 157%;
+}
+
+.forstoy {
+  color: #fff;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 157%;
+}
+
+.btn-story {
+  width: 240px;
+  height: 65px;
+}
+
+.aboutstory {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 600px) {
+  .imgstory {
+    width: 300px;
+  }
+
+  .thirdHead {
+    font-size: 35px;
+  }
+
+  .wcustome {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .aboutstory {
+    flex-wrap: wrap;
+  }
+
+  .product {
+    flex-wrap: wrap;
+  }
+}
+
+.custome {
+  margin-top: 120px;
+  margin-bottom: 200px;
+}
+
+.product {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-product {
+  width: 227px;
+  height: 65px;
+}
+
+.fiveHead {
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 157%;
+}
+
+.producter {
+  font-style: normal;
+  font-weight: 400;
+  line-height: 144.5%;
+}
+
+.images {
+  margin-right: 86px;
+}
+
+.footer {
+  margin-top: 95px;
+  background-color: #245852;
+  height: 550px;
+}
+
+ul {
+  padding-top: 80px;
+}
+
+li {
+  display: flex;
+  padding-bottom: 60px;
+}
+
+ul > li a {
+  color: #fff;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+/* styles for burger-menu */
+
+.burger-menu {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+/* media queries for adaptive */
+@media (max-width: 1184px) {
+  .navigation,
+  .login {
+    display: none;
+  }
+
+  .burger-menu {
+    display: flex;
+  }
+
+  .nav.active .navigation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: #fff;
+    position: absolute;
+    top: 92px;
+    left: 0;
+  }
+
+  .nav.active .login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+    top: 343px;
+    left: 0;
+    background-color: #fff;
+  }
+
+  .nav.active .navigation a,
+  .nav.active .login a,
+  .nav.active .btn-login {
+    margin: 20px 0;
+  }
+}
+
+.burger-checkbox {
+  position: absolute;
+  visibility: hidden;
+}
+.burger {
+  cursor: pointer;
+  display: block;
+  position: relative;
+  border: none;
+  background: transparent;
+  width: 40px;
+  height: 26px;
+  margin: 30px auto;
+}
+
+.burger::before,
+.burger::after {
+  content: "";
+  left: 0;
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 4px;
+  border-radius: 10px;
+  background: #01996d;
+}
+.burger::before {
+  top: 0;
+  box-shadow: 0 11px 0 #01996d;
+  transition: box-shadow 0.3s 0.15s, top 0.3s 0.15s, transform 0.3s;
+}
+.burger::after {
+  bottom: 0;
+  transition: bottom 0.3s 0.15s, transform 0.3s;
+}
+.burger-checkbox:checked + .burger::before {
+  top: 11px;
+  transform: rotate(45deg);
+  box-shadow: 0 6px 0 rgba(0, 0, 0, 0);
+  transition: box-shadow 0.15s, top 0.3s, transform 0.3s 0.15s;
+}
+.burger-checkbox:checked + .burger::after {
+  bottom: 11px;
+  transform: rotate(-45deg);
+  transition: bottom 0.3s, transform 0.3s 0.15s;
+}
